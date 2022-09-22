@@ -2,7 +2,6 @@ graph TD
 AccountSettingsCubit --> AccountStatusCubit
 AccountSettingsCubit --> HomeMenuCubit
 ProductCubit --> TradeCubit
-ServerTimeCubit --> SyncTimeCubit
 WebsiteStatusCubit --> AccountStatusCubit
 WebsiteStatusCubit --> TradeCubit
 WebsiteStatusCubit --> LanguageCubit

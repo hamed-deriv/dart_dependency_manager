@@ -17,11 +17,6 @@ final Node productCubit = Node(name: 'ProductCubit')
 
 final Node tradeCubit = Node(name: 'TradeCubit');
 
-final Node serverTimeCubit = Node(name: 'ServerTimeCubit')
-  ..addChildren(<Node>[syncTimeCubit]);
-
-final Node syncTimeCubit = Node(name: 'SyncTimeCubit');
-
 final Node websiteStatusCubit = Node(name: 'WebsiteStatusCubit')
   ..addChildren(<Node>[
     accountStatusCubit,
