@@ -18,11 +18,13 @@ final Node productCubit = Node(name: 'ProductCubit')
 final Node tradeCubit = Node(name: 'TradeCubit');
 
 final Node websiteStatusCubit = Node(name: 'WebsiteStatusCubit')
-  ..addChildren(<Node>[
-    accountStatusCubit,
-    tradeCubit,
-    languageCubit,
-  ]);
+  ..addChildren(
+    <Node>[
+      accountStatusCubit,
+      tradeCubit,
+      languageCubit,
+    ],
+  );
 
 final Node languageCubit = Node(name: 'LanguageCubit');
 
